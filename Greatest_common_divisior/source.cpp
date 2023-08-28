@@ -20,13 +20,10 @@ int main() {
 
   // Euclidean algorithm
   unsigned int gcd;
-  while (true) {
+  while (b != 0) {
     gcd = b;
     b = a % b;
     a = gcd;
-    if (b == 0) {
-      break;
-    }
   }
 
   std::cout << "\nThe greatest common divisor is " << gcd << std::endl;
