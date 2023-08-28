@@ -1,0 +1,16 @@
+ggT = groesster gemeinsamer Teiler
+gcd = greatest common divisor
+
+
+
+https://www.youtube.com/watch?v=CWRALUpNd00
+
+ggT(156,66)=?
+
+156 = 2 * 66 + 24 | wir nehmen nun die 66 und teilen den durch den Rest 24
+66 = 2 * 24 + 18  | das selbe wiederholen wir wieder
+24 = 1 * 18 + 6 
+18 = 2 * 6 + 0    | nun sind wir am Ende, der ggT ist 6
+
+ggT = 6
+
